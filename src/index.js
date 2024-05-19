@@ -1,1 +1,1 @@
-console.log("homo")
+import './style.css'
