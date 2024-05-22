@@ -1,1 +1,4 @@
-import './style.css'
+import './output.css'
+import styleNav from './navbar'
+
+styleNav()
