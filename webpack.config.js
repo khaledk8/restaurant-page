@@ -11,9 +11,15 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Page',
-      template: 'src/index.html'
+      template: './src/index.html',
+      filename: 'index.html',
+      inject: 'body',
     }),
   ],
+  devServer: {
+    static: './dist',
+    watchFiles: ['src/**/*.html']
+  },
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
@@ -26,5 +32,8 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
     ],
+  },
+  optimization: {
+    runtimeChunk: 'single',
   },
 };
