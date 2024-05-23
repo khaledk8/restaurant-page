@@ -612,6 +612,10 @@ video {
   min-height: 24rem;
 }
 
+.min-h-full {
+  min-height: 100%;
+}
+
 .w-4\/5 {
   width: 80%;
 }
@@ -654,6 +658,14 @@ video {
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-2\.5 {
+  gap: 0.625rem;
 }
 
 .gap-20 {
