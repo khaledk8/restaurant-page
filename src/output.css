@@ -600,8 +600,8 @@ video {
   height: 66.666667%;
 }
 
-.min-h-64 {
-  min-height: 16rem;
+.min-h-52 {
+  min-height: 13rem;
 }
 
 .min-h-8 {
